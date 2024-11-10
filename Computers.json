@@ -1,0 +1,169 @@
+[
+    {
+      "company": "Lenovo",
+      "products": [
+        {
+          "name": "Essential",
+          "average_wattage": "50"
+        },
+        {
+          "name": "IdeaPad",
+          "average_wattage": "70"
+        },
+        {
+          "name": "Legion",
+          "average_wattage": "100"
+        },
+        {
+          "name": "ThinkBook",
+          "average_wattage": "70"
+        },
+        {
+          "name": "ThinkPad",
+          "average_wattage": "70"
+        },
+        {
+          "name": "ThinkPad Yoga",
+          "average_wattage": "70"
+        },
+        {
+          "name": "Yoga",
+          "average_wattage": "50"
+        }
+      ]
+    },
+    {
+      "company": "HP",
+      "products": [
+        {
+          "name": "EliteBook",
+          "average_wattage": "70"
+        },
+        {
+          "name": "OmniBook",
+          "average_wattage": "70"
+        },
+        {
+          "name": "ProBook",
+          "average_wattage": "70"
+        },
+        {
+          "name": "ZBook",
+          "average_wattage": "120"
+        }
+      ]
+    },
+    {
+      "company": "Dell",
+      "products": [
+        {
+          "name": "Inspiron",
+          "average_wattage": "70"
+        },
+        {
+          "name": "Latitude",
+          "average_wattage": "70"
+        },
+        {
+          "name": "XPS",
+          "average_wattage": "90"
+        }
+      ]
+    },
+    {
+      "company": "Apple",
+      "products": [
+        {
+          "name": "MacBook Air",
+          "average_wattage": "30"
+        },
+        {
+          "name": "MacBook Pro",
+          "average_wattage": "60"
+        }
+      ]
+    },
+    {
+      "company": "Asus",
+      "products": [
+        {
+          "name": "ASUSPRO",
+          "average_wattage": "70"
+        },
+        {
+          "name": "Expertbook",
+          "average_wattage": "70"
+        },
+        {
+          "name": "ProArt",
+          "average_wattage": "120"
+        },
+        {
+          "name": "Republic of Gamers",
+          "average_wattage": "200"
+        },
+        {
+          "name": "Transformer",
+          "average_wattage": "50"
+        },
+        {
+          "name": "TUF",
+          "average_wattage": "150"
+        },
+        {
+          "name": "Vivobook",
+          "average_wattage": "70"
+        },
+        {
+          "name": "ZenBook",
+          "average_wattage": "70"
+        },
+        {
+          "name": "Zephyrus",
+          "average_wattage": "200"
+        }
+      ]
+    },
+    {
+      "company": "Acer",
+      "products": [
+        {
+          "name": "Aspire",
+          "average_wattage": "70"
+        },
+        {
+          "name": "Enduro",
+          "average_wattage": "70"
+        },
+        {
+          "name": "Extensa",
+          "average_wattage": "50"
+        },
+        {
+          "name": "Nitro",
+          "average_wattage": "100"
+        },
+        {
+          "name": "Packard Bell",
+          "average_wattage": "50"
+        },
+        {
+          "name": "Predator",
+          "average_wattage": "200"
+        },
+        {
+          "name": "Spin",
+          "average_wattage": "50"
+        },
+        {
+          "name": "Swift",
+          "average_wattage": "70"
+        },
+        {
+          "name": "TravelMate",
+          "average_wattage": "70"
+        }
+      ]
+    }
+  ]
+  
