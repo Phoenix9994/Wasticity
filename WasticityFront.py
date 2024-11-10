@@ -9,6 +9,16 @@ def BatteryInfo():
     seconds_till_charged = battery.secsleft
     return battery_percent, is_power_plugged, seconds_till_charged
 
+
+def get_fact_of_the_day(): # This function returns a simple fact of the day 
+    facts = [ "Even when devices are turned off, many still draw power if left plugged in, a phenomenon known as 'phantom load' or 'vampire power' Common culprits include phone chargers, microwaves, and TVs. These devices can consume up to 10%' of your household energy.", 
+    "Keeping devices plugged in after they are fully charged, especially smartphones and laptops, can cause the battery to degrade over time. This results in shorter battery life and more frequent charging cycles.", 
+    "A significant number of U.S. households keep their devices plugged in all day, even when not in use. This 'always-on' energy consumption represents about 23%' of electricity usage in homes, particularly from appliances and electronics that remain in standby or idle modes​ This practice can cost homeowners an average of $165 per year in electricity, totaling $19 billion annually across the nation" ]
+    import random 
+    return random.choice(facts)
+
+
+
 # Define image paths for different battery levels
 images = {
     "low": "Low.png",                         # 0-30%
@@ -30,7 +40,8 @@ layout = [
             key='-GRAPH-',
             background_color='dark gray',
             pad=((50, 20), (0, 0))  # Adjusted padding for medium-sized gap
-        )
+        ),
+        
     ],
     [sg.Text('', key="-TEXT-", font=('Comic Sans MS', 14), background_color='dark gray', text_color='black', pad=(30, 0))]
 ]
@@ -61,7 +72,7 @@ if Overflow:
     image.save(resized_image_path)
 
 # Draw the resized image on the graph
-    graph.draw_image(filename=resized_image_path, location=(125, 250))
+    graph.draw_image(filename=resized_image_path, location=(120, 250))
 
 
 
@@ -77,8 +88,14 @@ graph.draw_text('Current cost per hour', (175, 70), color='black', font=('Comic 
 #This will be edited
 graph.draw_text('$$$$', (175, 40), color='black', font=('Comic Sans MS', 14))
 
+graph.draw_text('Powered by Wasticity', (180, 290), color='black', font=('Comic Sans MS', 18))
 
 
+
+
+
+
+            
 while True:
     # Read the battery info
     battery_percent, is_power_plugged, seconds_till_charged = BatteryInfo()
